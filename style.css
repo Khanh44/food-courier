@@ -3,6 +3,8 @@ body {
     flex-direction: column;
 }
 
+/*    Section 1     */
+
 .title {
     display: flex;
     flex-direction: column;
@@ -45,4 +47,32 @@ a {
 .intro_text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/*    Section 2     */
+
+.context {
+
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.strategy {
+    display: flex;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+
 }
