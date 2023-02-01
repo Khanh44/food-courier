@@ -131,6 +131,7 @@ a {
 
 .closing {
     font-size: 12px;
+    white-space: nowrap;
 }
 
 .button_container {
@@ -148,5 +149,13 @@ a {
     font-size: 12px;
     padding: 4px 16px;
     white-space: nowrap;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding: 12px;
 
 }
