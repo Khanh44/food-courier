@@ -114,6 +114,7 @@ a {
 
 .action {
     display: flex;
+    justify-content: center;
     padding: 52px 112px 52px 112px;
 }
 .happiness {
