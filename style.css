@@ -114,11 +114,39 @@ a {
 
 .action {
     display: flex;
-    background-color: #3882F6;
+    padding: 52px 112px 52px 112px;
 }
 .happiness {
     display: flex;
     flex-direction: column;
+    background-color: #3882F6;
     color: white;
-    padding: 52px 52px 52px 112px;
+    padding: 26px 52px 26px 52px;
+}
+
+.info_header {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.closing {
+    font-size: 12px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 26px 52px 26px 8px;
+}
+
+.button_action {
+    border: 2px solid white;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    padding: 4px 16px;
+    white-space: nowrap;
+
 }
