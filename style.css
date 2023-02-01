@@ -8,12 +8,15 @@ body {
 .title {
     display: flex;
     flex-direction: column;
- background-color: #1F2937;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 8px;
 }
 
 ul {
@@ -32,6 +35,9 @@ a {
 .container {
     display: flex;
     margin-top: 24px;
+    padding-left: 52px;
+    padding-right: 52px;
+    margin-bottom: 52px;
 }
 
 .intro {
@@ -48,12 +54,16 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+.button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 /*    Section 2     */
-
-.context {
-
-}
 
 .title1 {
     display: flex;
@@ -61,11 +71,13 @@ a {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    padding: 16px;
 }
 
 .strategy {
     display: flex;
     gap: 16px;
+    padding: 0 112px 36px 112px;
 }
 
 .info {
@@ -73,6 +85,40 @@ a {
     flex-direction: column;
 }
 
-.text {
+/*     Section 3    */
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-top: 52px;
+    padding-bottom: 36px;
+}
+
+.words {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.signature {
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+}
+
+/*       Section 4    */
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+}
+.happiness {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 52px 52px 52px 112px;
 }
